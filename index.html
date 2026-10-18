@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover original one-chapter stories on StoryNest.">
+  <title>Clark's Library  — Find your next story</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="stories.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="StoryNest home"><span class="brand-mark">✦</span> Clark's Library </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Discover</a>
+      <a href="#library">Library</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="header-actions"><button id="themeToggle" class="icon-button" type="button" aria-label="Toggle dark mode">☾</button><a class="nav-cta" href="#library">Explore stories</a></div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">YOUR NEXT LITTLE OBSESSION</p><h1>Every cover holds<br><em>a whole new world.</em></h1><p class="hero-text">Find your next favorite in a collection of original short reads, from moonlit mysteries to heartwarming romance.</p><a class="primary-button" href="#library">Find a story <span>↗</span></a><div class="hero-note"><span class="avatar-stack">✦ ◉ ✧</span><span>30 original stories · one chapter each</span></div></div>
+      <div class="hero-art"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="floating-book book-back"><span>THE UNKNOWN</span></div><div class="floating-book book-mid"><span>AFTER<br>THE RAIN</span></div><div class="floating-book book-front"><span>THE LAST<br>STAR</span><small>A STORYNEST ORIGINAL</small></div><span class="sparkle sparkle-a">✦</span><span class="sparkle sparkle-b">✧</span></div>
+    </section>
+    <section class="genre-strip" aria-label="Story genres"><span>✧ Fantasy</span><span>♡ Romance</span><span>☾ Mystery</span><span>✦ Sci-Fi</span><span>❋ Slice of life</span><span>♧ Adventure</span></section>
+    <section id="library" class="library-section">
+      <div class="section-heading"><div><p class="eyebrow">THE STORY SHELF</p><h2>Stories worth staying up for.</h2><p class="muted">Browse by mood, find a cover, and dive into chapter one.</p></div><span class="count-pill">30 STORIES</span></div>
+      <div class="filter-row"><label class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search title, author, or genre..." aria-label="Search stories"></label><select id="genreFilter" aria-label="Filter by genre"><option value="All">All genres</option></select><select id="sortSelect" aria-label="Sort stories"><option value="featured">Featured order</option><option value="title">Title A–Z</option></select></div>
+      <div id="storyGrid" class="story-grid" aria-live="polite"></div>
+      <p id="emptyState" class="empty-state" hidden>No stories match your search. Try another title or genre.</p>
+    </section>
+
+    <section class="student-project" aria-labelledby="project-info-title">
+      <div class="project-icon">ITE 1</div>
+      <div class="project-details">
+        <p class="eyebrow">COLLEGE PROJECT</p>
+        <h2 id="project-info-title">StoryNest Storybook Website</h2>
+        <p>Submitted by <strong>Clark Jade Borbon</strong> · <strong>BSIT 21011</strong></p>
+        <p>Subject: <strong>ITE 1</strong> · Instructor: <strong>Mari Laynesa</strong></p>
+        <p><strong>Bestlink College of the Philippines</strong></p>
+      </div>
+    </section>
+\n    <section id="about" class="about-section"><div class="about-symbol">✦</div><div><p class="eyebrow">A HOME FOR IMAGINATION</p><h2>Small stories. Big feelings.</h2><p>StoryNest is a fictional reading corner created for curious minds. Every book here is an original, single-chapter story made to be enjoyed in one sitting.</p></div><a class="text-link" href="#library">Back to the shelf ↑</a></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">✦</span> StoryNest</a><p>Made for dreamers, readers, and late-night thinkers.</p><span>© 2026 StoryNest · ITE 1 Project · Bestlink College of the Philippines</span></footer>
+</body>
+</html>
